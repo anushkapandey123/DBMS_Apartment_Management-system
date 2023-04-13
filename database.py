@@ -2,11 +2,10 @@ import pandas as pd
 
 import mysql.connector 
 mydb = mysql.connector.connect(
- host="database-1.cvh9tyrvaj5s.eu-north-1.rds.amazonaws.com", 
- user="admin", 
- password="anushka123", 
- database="database1",
- port=3306
+ host="localhost", 
+ user="root", 
+ password="", 
+ database="apartment_management_system"
 )
 
 c = mydb.cursor()
